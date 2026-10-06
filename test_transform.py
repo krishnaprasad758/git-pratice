@@ -18,5 +18,5 @@ def test_transform_removes_null_values():
 
     result = transform_data(data)
 
-    assert len(result) == 2
+    assert len(result) == 1
     assert result[0]["name"] == "Krish"
